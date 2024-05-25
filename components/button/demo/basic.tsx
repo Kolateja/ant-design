@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Flex } from 'antd';
 
-const App: React.FC = () => (
+function App(){
   <Flex gap="small" wrap>
     <Button type="primary">Primary Button</Button>
     <Button>Default Button</Button>
@@ -9,6 +9,6 @@ const App: React.FC = () => (
     <Button type="text">Text Button</Button>
     <Button type="link">Link Button</Button>
   </Flex>
-);
+};
 
 export default App;
